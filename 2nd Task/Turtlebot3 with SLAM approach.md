@@ -9,7 +9,15 @@
 
 5. If you want to move around with your robot, run [this node](https://emanual.robotis.com/docs/en/platform/turtlebot3/slam_simulation/#run-teleoperation-node) 
 
-6. Lastly, after you moved aroud with your robot on the map, run this command to save the map to your VM:
+6. Moving around inside the map 
+
+
+https://user-images.githubusercontent.com/53378171/124689613-7bbe2980-dee1-11eb-85ba-ce110d693ae3.mov
+
+
+
+
+7. Lastly, after you've moved aroud with your robot on the map, run this command to save the map to your VM:
 
    **$ rosrun map_server map_saver -f ~/map**
    
