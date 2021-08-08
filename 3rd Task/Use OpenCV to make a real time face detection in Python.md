@@ -1,6 +1,6 @@
 # If you're a macOS Catalina user, these steps are for you!
 
-First, you need to understand how **OpenCV** work:
+First, you need to understand how **OpenCV** works:
 1.	Calling the classifiers; you can get them form their open source in GitHub. 
 2.	Convert the frame or image, -depending on the program- to gray.
 3.	Highlighting the object coordinates with a rectangle, which you can change its colors and width.
