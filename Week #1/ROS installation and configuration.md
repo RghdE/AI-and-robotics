@@ -7,6 +7,6 @@
 
 3- Follow the steps in their webpage to install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
-4- To make sure that ROS is working perfectly, run this command $ roscore, and you're done!  
+4- To make sure that ROS is working perfectly, run this command `$ roscore`, and you're done!  
 
 ![installed](https://user-images.githubusercontent.com/53378171/123525831-4c870b80-d6dc-11eb-85fd-a095b1203ebf.png)
