@@ -6,8 +6,8 @@
 
     Go to [ROS](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) and follow the steps of creating a package
    
-
-  `$ cd ~/catkin_ws/src`
+```
+    $ cd ~/catkin_ws/src
 
     $ catkin_create_pkg pub std_msgs rospy roscpp (create the package with its dependencies)
   
@@ -16,21 +16,22 @@
     $ catkin_make
 
     $ . ~/catkin_ws/devel/setup.bash
+ ```
 
 2. Writing the Publisher Node
-   
-  ` $ roscd pub`
+```
+    $ roscd pub
    
     $ mkdir scripts
    
     $ cd scripts
     
     $ vi pub.py (here you can write your Python script using any editor) 
-   
+```   
    
 3. Now open the RViz simulator 
-
-  `$ roscore` (1st tab)
+```
+    $ roscore (1st tab)
     
     $ export TURTLEBOT3_MODEL=burger (2nd tab)
     
@@ -39,13 +40,14 @@
     $ export TURTLEBOT3_MODEL=burger (3rd tab)
     
     $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch (here follow the steps of [2] and move around with the robot so it can collect info about its environment) 
+```    
 
 3. Publishing the robot position to the topic 
-
- ` $ rostopic echo /move_base_simple/goal` (1st tab)
+```
+  $ rostopic echo /move_base_simple/goal (1st tab)
  
- ` $ rosrun pub pub.py` (2nd tab)
- 
+  $ rosrun pub pub.py (2nd tab)
+ ```
  ---
  
 ## Finally! The Result
