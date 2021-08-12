@@ -52,7 +52,7 @@ $ vi wallE.py (here you can write your Python script using any editor vi/vim ...
 
 $ roscore -if you haven't already-
 
-$ chmod +x wallE.pyn (change the permission to make the *publsiher* file executable)
+$ chmod +x wallE.py (change the permission to make the *publsiher* file executable)
 
 $ python wallE.py (here you can see that your message gets published by the help of # rospy.loginfo(greeting) )
 
