@@ -74,6 +74,10 @@ $ python wallE.py
 
 here you'll see clearly how the publisher and the subscriber nodes are communicating 
 ```
+
+![VirtualBox_Ubuntu 18 4 Bionic_13_08_2021_02_29_36](https://user-images.githubusercontent.com/53378171/129284174-b0d00d59-1fa6-48fb-a430-a61d08fc5dad.png)
+
+
 ---
 
 You're done! 
