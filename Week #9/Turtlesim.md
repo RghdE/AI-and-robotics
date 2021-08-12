@@ -79,15 +79,19 @@ here you'll see clearly how the publisher and the subscriber nodes are communica
 You're done! 
 
 ---
-Note: 
+Notes: 
 
-If you add `#!/usr/bin/env python` line at the begginneng of your python script, and sourced your workesapce, you can run the file from anywhere using: 
+- If you add `#!/usr/bin/env python` line at the begginneng of your python script, and sourced your workesapce, you can run the file from anywhere using: 
 
 `$ rosrun [package name] [pyhton file name.py]` 
+
+- Do this tutorial first before jumping into [this](https://github.com/raghdutionn/AI-and-robotics/blob/main/Week%20%239/Publish%20to%20a%20topic%20using%20a%20Python%20script.md) task, it'll be way easier for you.
 
 Python files:
 
 [wallE.py](https://github.com/raghdutionn/AI-and-robotics/blob/main/Week%20%239/wallE.py)
 
 [Eva.py](https://github.com/raghdutionn/AI-and-robotics/blob/main/Week%20%239/Eva.py)
+
+
 
