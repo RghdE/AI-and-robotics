@@ -3,11 +3,13 @@
 
   <!-- start world -->
   <node name="gazebo" pkg="gazebo_ros" type="gazebo" 
-   args="$(find your_pkg)/worlds/turtlebot3_world.world" respawn="false" output="screen" />
+   args="$(find turtlebot3_gazebo)/worlds/turtlebot3_world.world" respawn="false" output="screen" />
+ 
+  <!-- the file can be found in: catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3_world.world-->	
 
   <!-- start gui -->
-  <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/>
+  <node name="gazebo_gui" pkg="gazebo_ros" type="gui" respawn="false" output="screen"/>
 
   <!-- include our robots -->
-  <include file="$(find your_pkg)/launch/robots.launch"/>
+  <include file="$(find n_robots)/launch/robots.launch"/>
 </launch>
