@@ -43,3 +43,17 @@ $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/robot1/cmd_ve
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/robot2/cmd_vel (2nd window)
 ```
 https://user-images.githubusercontent.com/53378171/129467546-9c1ca755-80a6-40cf-bf28-52114ed83a6b.mov
+
+## Problems Faced:
+
+- when I ran `$ catkin_make` the virtual machine halted. I tried 4 times but it didn't work. So I tried to delete unesseary packages and It worked.
+
+![VirtualBox_Ubuntu 18 4 Bionic_15_08_2021_06_27_26](https://user-images.githubusercontent.com/53378171/129467577-1a41b7f7-08de-4e33-9dea-957846777fd6.png)
+
+- At first, I added 3 Turtlebots, I think I made a mistake with the Robots positions, they were very far away from each other. 
+
+![VirtualBox_Ubuntu 18 4 Bionic_15_08_2021_07_22_06](https://user-images.githubusercontent.com/53378171/129467666-1ebbc008-887a-4c81-803c-63299b9a701f.png)
+
+- Then I fixed it; I only made changes to the x-axis and left the y-axis as it is ( 1 ). But when I ran `$ rolaunch`, I faced this error, so I deleted the 3rd robot and it worked.
+
+![VirtualBox_Ubuntu 18 4 Bionic_15_08_2021_07_29_59](https://user-images.githubusercontent.com/53378171/129467741-b507f57c-464d-4184-896d-78868f6811a6.png)
