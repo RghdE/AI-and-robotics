@@ -18,11 +18,16 @@ $ cd launch
 
 $ vi one_robot.launch
 
-$ vi multi_robot.launch
+$ vi robots.launch
 
 $ vi main.launch
 
-$ roslaunch n_robots main.launch
+$ roslaunch n_robots main.launch (gazebo will open)
 
+```
 
+Control the robots with teleop: (keyboard)
+```
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/robot1/cmd_vel (1st window)
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/robot2/cmd_vel (2nd window)
 ```
